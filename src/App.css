@@ -1,0 +1,195 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    height: 50px; /* Sets the background color to black */
+    position: relative;
+}
+
+.logo{
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff !important; /* Ensures the text is white for better contrast */
+}
+
+.nav-link:hover {
+    color: #ccc !important; /* Changes the text color to light gray on hover */
+}
+
+.dropdown-menu {
+    background-color: #333; /* Darkens the dropdown menu background */
+}
+
+.dropdown-menu a {
+    color: #fff; /* Makes dropdown menu items white */
+}
+
+.dropdown-menu a:hover {
+    background-color: #555; /* Changes background on hover */
+    color: #fff; /* Keeps text white on hover */
+}
+
+/* Home Page Styles */
+.home {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.home h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.description{
+  font-size: 20px;
+  color: #5f2323;
+  text-align: justify;
+}
+
+.infrastructure {
+  height: 400px;
+  width: 650px;
+  border-radius: 25px;
+  margin-left: 100px;
+  
+}
+
+/* Courses Page Styles */
+.courses {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e9ecef;
+}
+
+.courses h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.course-item {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  
+  font-size: 16px;
+  color: #555;
+}
+.courses button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Events Page Styles */
+.events {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.events h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.events button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.events button:hover {
+  background-color: #0056b3;
+}
+
+.events p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+/* Not Found Page Styles */
+.not-found {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8d7da;
+}
+
+.not-found h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #721c24;
+}
+
+.not-found p {
+  font-size: 18px;
+  color: #821c24;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .course-item {
+    margin: 10px 10px;
+  }
+}
